@@ -1,0 +1,54 @@
+1. Kaggle: House Prices - Advanced Regression Techniques
+
+URL: https://www.kaggle.com/c/house-prices-advanced-regression-techniques
+
+Description: Contains 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa.
+
+Ideal for: Feature engineering, advanced regression models (like XGBoost, LightGBM, Stacking).
+
+
+
+---
+
+2. Boston Housing Dataset (from sklearn)
+
+Load via:
+
+from sklearn.datasets import load_boston
+data = load_boston()
+
+Note: This dataset is deprecated due to ethical concerns. Use alternatives like the Ames dataset instead.
+
+
+
+---
+
+3. Ames Housing Dataset
+
+Source: https://www.openml.org/d/42165
+
+Alternative Kaggle: https://www.kaggle.com/datasets/prevek18/ames-housing-dataset
+
+Description: Improved and more ethical alternative to Boston Housing, with 82 features.
+
+
+
+---
+
+4. Zillow Housing Data (via Kaggle or API)
+
+URL: https://www.kaggle.com/datasets/zillow/zecon
+
+Description: Time-series and region-based data from Zillow. Suitable for temporal regression or forecasting.
+
+Ideal for: Advanced time-series forecasting with ARIMA, Prophet, etc.
+
+
+
+---
+
+5. UK House Price Index
+
+URL: https://landregistry.data.gov.uk/app/ukhpi
+
+Description: Real transaction data with geographic and time features.
